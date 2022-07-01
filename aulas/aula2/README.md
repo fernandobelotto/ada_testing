@@ -21,16 +21,12 @@
 1. adicionar o script de test no package.json
 
 ```diff
-{
-...
 "main": "index.js",
 "scripts": {
 -   "test": "echo \"Error: no test specified\" && exit 1"
 +   "test": "jest"
 },
 "keywords": [],
-...
-}
 ```
 
 1. criar um arquivo de teste chamado index.test.js
